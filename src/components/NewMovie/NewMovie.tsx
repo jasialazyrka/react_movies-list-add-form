@@ -95,7 +95,6 @@ export const NewMovie: React.FC<Props> = ({ onAdd }) => {
             data-cy="submit-button"
             className="button is-link"
             disabled={hasError}
-            onClick={handleSubmit}
           >
             Add
           </button>
