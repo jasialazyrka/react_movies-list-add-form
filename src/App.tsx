@@ -8,8 +8,8 @@ import { Movie } from './types/Movie';
 export const App = () => {
   const [movies, setMovies] = useState<Movie[]>(moviesFromServer);
 
-  const addMovie = (NewMovie: Movie) => {
-    setMovies(currentMovies => [...currentMovies, NewMovie]);
+  const addMovie = (newMovie: Movie) => {
+    setMovies(currentMovies => [...currentMovies, newMovie]);
   };
 
   return (
